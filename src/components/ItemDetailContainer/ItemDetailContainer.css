@@ -1,0 +1,20 @@
+.cardDetail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    font-family: "Archivo", sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+    .cardDetail {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+

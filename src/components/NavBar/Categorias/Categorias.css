@@ -1,0 +1,52 @@
+.lista {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 0.5rem 0;
+  margin: 0;
+  list-style: none;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.lista__item {
+  transition: transform 0.2s;
+}
+
+.lista__item:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+.itemTexto {
+  text-decoration: none;
+  color: #22223b;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.itemTexto:hover {
+  color: #e63946;
+}
+
+.lista__item h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+
+    .lista {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lista__item {
+        margin-bottom: 1rem;
+    }
+    
+    .itemTexto {
+        font-size: 1rem;
+    }
+    
+}

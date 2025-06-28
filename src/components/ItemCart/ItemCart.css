@@ -1,0 +1,28 @@
+.buyContainer .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buyContainer div .textColumn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    .buyContainer .product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+    .buyContainer div .textColumn{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+}

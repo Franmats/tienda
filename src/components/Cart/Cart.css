@@ -1,0 +1,48 @@
+
+.btn {
+    background-color: #21c2ea;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #9de5f2;
+  }
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.buyContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+
+.buyContainer .buyButtons button {
+    background-color: #2f95f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buyContainer .buyButtons button:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.5s;
+    border: 3px solid  #2f95f5 ;
+    
+}
+
+
+
+
